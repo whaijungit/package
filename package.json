@@ -1,12 +1,12 @@
 {
-  "name": "utils-common",
+  "name": "corss-helper",
   "version": "0.0.1",
   "module": "dist/esm/index.js",
   "description": "javascript utils",
   "scripts": {
     "dev": "vite",
-    "build": "rimraf dist && rollup -c",
-    "compiler": "tsc"
+    "test": "jest -w",
+    "build": "rimraf dist && rollup -c"
   },
   "author": "",
   "keywords": [
@@ -24,8 +24,5 @@
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
     "vite": "^3.0.9"
-  },
-  "dependencies": {
-    "common-methods": "^1.2.3"
   }
 }
