@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  common-methods: ^1.2.3
   rimraf: ^3.0.2
   rollup: ^2.78.1
   rollup-plugin-terser: ^7.0.2
@@ -8,6 +9,9 @@ specifiers:
   tslib: ^2.4.0
   typescript: ^4.7.4
   vite: ^3.0.9
+
+dependencies:
+  common-methods: 1.2.3
 
 devDependencies:
   rimraf: registry.npmmirror.com/rimraf/3.0.2
@@ -28,6 +32,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /common-methods/1.2.3:
+    resolution: {integrity: sha512-uUkkkFapIBgaUh//yzVsQnhjCoicEe4SEHHm2oTEcqfDbIfiTIF0Pc833IvKWUG/obAlQ+flK7JITl8mR0x7CA==}
+    dev: false
 
   /esbuild-android-64/0.14.54:
     resolution: {integrity: sha512-Tz2++Aqqz0rJ7kYBfz+iqyE3QMycD4vk7LBRyWaAVFgFtQ/O8EJOnVmTOiDWYZ/uYzB4kvP+bqejYdVKzE5lAQ==}
