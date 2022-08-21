@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": [
+      "esnext"
+    ],
+    "declaration": true,
+    "noEmitOnError": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

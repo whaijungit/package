@@ -1,0 +1,28 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "module": "dist/esm/index.js",
+  "description": "javascript utils",
+  "scripts": {
+    "dev": "vite",
+    "build": "rimraf dist && rollup -c",
+    "compiler": "tsc"
+  },
+  "author": "",
+  "keywords": [
+    "utils",
+    "tools",
+    "methods",
+    "function"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.78.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.9"
+  }
+}
